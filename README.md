@@ -1,4 +1,4 @@
-Problem Description:
+**Problem Description:**
 
 To create an app that will show the latest foreign exchange rates, as well as historical exchange rates. 
 Using the Open Exchange Rates API, we can request this data. The challenge also called for the use of a three-tier network architecture.
