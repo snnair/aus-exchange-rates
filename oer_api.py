@@ -1,9 +1,12 @@
 import urllib.request, json
 import datetime
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 ##STATIC MODEL FOR THE OER API##
 class OpenExchangeRates:
-    APP_ID = 'e30cb9f804524d1cadda70fa74f33296'
+    APP_ID = os.environ.get("OPEN_EXCHANGE_RATES_APP_ID")
     BASE_URL = "https://openexchangerates.org/api/"
     URL_LATEST = "https://openexchangerates.org/api/latest.json?app_id=" + APP_ID
     
