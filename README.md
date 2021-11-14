@@ -40,3 +40,6 @@ The solution also includes a REST API that has two endpoints. It responds with l
 - It does not have authentication. 
 
 Given the time, I would have loved to address these and at least implement authentication and a database. 
+
+**LINK to the App:**
+https://aus-exchange-rates.herokuapp.com/
