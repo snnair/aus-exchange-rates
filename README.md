@@ -34,4 +34,9 @@ I would rethink the architecture of the app. The current iteration calls the OER
 
 The solution also includes a REST API that has two endpoints. It responds with latest exchange rates data and historical exchange rates data respectively. Therefore, the overall solution is along the full-stack track. I tried my best to design it well and think about scalability and did the best I could with the time that I had. 
 
+**Concerning the API:**
+- I was not able to successfully host it on Heroku.
+- I could not implement a database for the resources.
+- It does not have authentication. 
 
+Given the time, I would have loved to address these and at least implement authentication and a database. 
